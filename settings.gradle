@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Palvi762152_FT'
