@@ -4,12 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-    <ListView
-        android:layout_width="wrap_content"
+   <fragment
+       android:layout_width="match_parent"
+       android:layout_height="550dp"
+       android:id="@+id/frgid"
+       android:name="com.example.palvi762152_ft.listactivity"
+       ></fragment>
+
+    <Button
+        android:id="@+id/btn2"
+        android:onClick="adduser"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/list_item"
-        ></ListView>
+        android:background="#0BD6C3"
+        android:text="Add User"></Button>
 
 
 </LinearLayout>
